@@ -5,7 +5,7 @@ bin_name=$3
 version='13.0.0'
 shell_version='1.0.3'
 pkgname='frp'
-authorname='fxpool'
+authorname='Youareman001'
 installname='install.sh'
 sofname='fxminerproxyv3'
 wdog='runningFXMPV3'
@@ -19,7 +19,7 @@ yellow='\033[0;33m'
 plain='\033[0m'
 clearscr='\033c'
 
-download_url=https://raw.githubusercontent.com/fxpool/frp/main/$version.tar.gz
+download_url=https://raw.githubusercontent.com/Youareman001/frp/main/$version.tar.gz
 
 #检查当前下载的文件收有记录
 if [ ! -f "$myFile" ]; then
