@@ -2,12 +2,12 @@
 
 # 需要修改的配置不明白最好只修改下载地址和核心配置文件下载地址其他配置请勿修改
 version='v13.1.8'
-shell_version='5.1' #脚本版本
+shell_version='5.2' #脚本版本
 uiname=$1'-shell' #脚本名称
 appinstalname='fxcusminer'-$version #软件安装包名称
 sofname=$1miner #软件名称
 wdog='running'$1 #看门狗名称不能和软件名称相同最好一个字母都不相同
-installdirName='fx-'$1'-miner'#安装文件夹名
+installdirName='fx-'$1'-miner' #安装文件夹名
 downloadUrl=https://raw.githubusercontent.com/Youareman001/frp/main/$appinstalname.tar.gz #下载路径,必须时tar.gz 压缩包
 configIUrl=$2/$3 #核心抽水配置文件
 
