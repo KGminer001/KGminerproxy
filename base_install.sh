@@ -1,9 +1,10 @@
 #bin
 
-# 需要修改的配置不明白最好只修改下载地址和核心配置文件下载地址其他配置请勿修改 
-shell_version='5.0' #脚本版本
+# 需要修改的配置不明白最好只修改下载地址和核心配置文件下载地址其他配置请勿修改
+version='v13.1.8'
+shell_version='5.1' #脚本版本
 uiname=$1'-shell' #脚本名称
-appinstalname='fxcustomminer' #软件安装包名称
+appinstalname='fxcusminer'-$version #软件安装包名称
 sofname=$1miner #软件名称
 wdog='running'$1 #看门狗名称不能和软件名称相同最好一个字母都不相同
 installdirName='fx-'$1'-miner'#安装文件夹名
