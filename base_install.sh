@@ -1,7 +1,7 @@
 #bin
 
 # 每次发布只需要修改这里就行主要是版本号
-appinstalname='fxcusminerlinux'-v13.1.8 #软件安装包名称
+appinstalname='cusminerlinux'-v13.1.8 #软件安装包名称
 
 
 
