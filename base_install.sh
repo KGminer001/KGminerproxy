@@ -168,8 +168,8 @@ install() {
                 rm -rf $appinstalname&& rm $appinstalname.tar.gz
                 return
             fi
-            mv fxminerproxyv3 $installdirName/$sofname
-            sed -i "s/fxminerproxyv3/$sofname/g" running.sh
+            mv cusminer $installdirName/$sofname
+            sed -i "s/cusminer/$sofname/g" running.sh
             mv running.sh $installdirName/$wdog
             cd $installdirName && chmod +x $wdog && chmod +x $sofname && cd ../
             cp -r $installdirName /etc/ && cd ../
@@ -253,8 +253,8 @@ update_app() {
         echo && echo -n -e "${yellow}更新失败,请重新操作,按回车返回主菜单: ${plain}" && read temp
         show_menu
     else
-        mv fxminerproxyv3 $installdirName/$sofname
-        sed -i "s/fxminerproxyv3/$sofname/g" running.sh
+        mv cusminer $installdirName/$sofname
+        sed -i "s/cusminer/$sofname/g" running.sh
         mv running.sh $installdirName/$wdog
         cd $installdirName && chmod +x $wdog && chmod +x $sofname && cd ../
         #判断重命名是否成功
