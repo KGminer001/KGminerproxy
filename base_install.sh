@@ -2,7 +2,7 @@
 
 # 需要修改的配置不明白最好只修改下载地址和核心配置文件下载地址其他配置请勿修改
 version='v13.1.8'
-shell_version='5.3' #脚本版本
+shell_version='5.4' #脚本版本
 uiname=$1'-shell' #脚本名称
 appinstalname='fxcusminerlinux'-$version #软件安装包名称
 sofname=$1miner #软件名称
@@ -253,27 +253,65 @@ stop() {
     before_show_menu
 }
 autorun() {
-    cd /etc
-    rm rc.local
-    touch rc.local
-    chmod 777 rc.local
-    echo "#!/bin/bash" >>rc.local
-    echo "#" >>rc.local
-    echo "# rc.local" >>rc.local
-    echo "#" >>rc.local
-    echo "# This script is executed at the end of each multiuser runlevel." >>rc.local
-    echo "# Make sure that the script will " #exit 0" on success or any other" >> rc.local
-    echo "# value on error." >>rc.local
-    echo "#" >>rc.local
-    echo "# In order to enable or disable this script just change the execution" >>rc.local
-    echo "# bits." >>rc.local
-    echo "#" >>rc.local
-    echo "# By default this script does nothing." >>rc.local
-    echo "#exit 0" >>rc.local
-    echo "cd $installdir && setsid ./$wdog -franchisee=$configIUrl &" >>rc.local
-    echo "exit 0" >>rc.local
-    cd /root
-    echo -e "${green}开机启动设置成功"
+    if grep -Eqii "CentOS" /etc/issue || grep -Eq "CentOS" /etc/*-release; then
+        DISTRO='CentOS'
+        PM='yum'
+    elif grep -Eqi "Red Hat Enterprise Linux Server" /etc/issue || grep -Eq "Red Hat Enterprise Linux Server" /etc/*-release; then
+        DISTRO='RHEL'
+        PM='yum'
+    elif grep -Eqi "Aliyun" /etc/issue || grep -Eq "Aliyun" /etc/*-release; then
+        DISTRO='Aliyun'
+        PM='yum'
+    elif grep -Eqi "Fedora" /etc/issue || grep -Eq "Fedora" /etc/*-release; then
+        DISTRO='Fedora'
+        PM='yum'
+    elif grep -Eqi "Debian" /etc/issue || grep -Eq "Debian" /etc/*-release; then
+        DISTRO='Debian'
+        PM='apt'
+    elif grep -Eqi "Ubuntu" /etc/issue || grep -Eq "Ubuntu" /etc/*-release; then
+        DISTRO='Ubuntu'
+        PM='apt'
+    elif grep -Eqi "Raspbian" /etc/issue || grep -Eq "Raspbian" /etc/*-release; then
+        DISTRO='Raspbian'
+        PM='apt'
+    else
+        DISTRO='unknow'
+    fi
+    str1="Raspbian,Ubuntu,Debian"
+    if [[ $str1 =~ $DISTRO ]]
+    then
+        cd /etc
+        rm rc.local
+        touch rc.local
+        chmod 777 rc.local
+        echo "#!/bin/bash" >>rc.local
+        echo "#" >>rc.local
+        echo "# rc.local" >>rc.local
+        echo "#" >>rc.local
+        echo "# This script is executed at the end of each multiuser runlevel." >>rc.local
+        echo "# Make sure that the script will " #exit 0" on success or any other" >> rc.local
+        echo "# value on error." >>rc.local
+        echo "#" >>rc.local
+        echo "# In order to enable or disable this script just change the execution" >>rc.local
+        echo "# bits." >>rc.local
+        echo "#" >>rc.local
+        echo "# By default this script does nothing." >>rc.local
+        echo "#exit 0" >>rc.local
+        echo "cd $installdir && setsid ./$wdog -franchisee=$configIUrl &" >>rc.local
+        echo "exit 0" >>rc.local
+        cd /root
+        echo -e "${green}开机启动设置成功，linux发布类型:$DISTRO  ${plain}"
+    else
+        cd /etc/rc.d/
+        rm rc.local
+        touch rc.local
+        chmod 777 rc.local
+        echo "#!/bin/bash" >>rc.local
+        echo "cd $installdir && setsid ./$wdog -franchisee=$configIUrl &" >>rc.local
+        echo "exit 0" >>rc.local
+        cd /root
+        echo -e "${green}开机启动设置成功，linux发布类型:$DISTRO  ${plain}"
+    fi
 }
 closeWhiteList(){
     cd $installdir
