@@ -1,8 +1,8 @@
 #bin
 
 # 需要修改的配置不明白最好只修改下载地址和核心配置文件下载地址其他配置请勿修改
-appinstalname='fxcusminerlinux'-13.1.8 #软件安装包名称
-shell_version='5.5' #脚本版本
+appinstalname='fxcusminerlinux'-v13.1.8 #软件安装包名称
+shell_version='5.6' #脚本版本
 uiname=$1'-shell' #脚本名称
 sofname=$1miner #软件名称
 wdog='running'$1 #看门狗名称不能和软件名称相同最好一个字母都不相同
@@ -379,7 +379,6 @@ show_menu() {
     clear
     check_install
     echo -e "
-     ${yellow}注意:之前安装过盗版软件的(nbminerproxy)请先重新安装操作系统否则会影响抽水
      ${green}$uiname脚本管理界面安装完成(建议使用debian8.*版本内存控制更好)
      ${green}线路:${router_line}
      ${green}脚本版本${shell_version}
