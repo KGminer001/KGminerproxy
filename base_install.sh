@@ -1,24 +1,33 @@
 #bin
 
 # 需要修改的配置不明白最好只修改下载地址和核心配置文件下载地址其他配置请勿修改
-version='v13.1.8'
-shell_version='5.4' #脚本版本
+appinstalname='fxcusminerlinux'-13.1.8 #软件安装包名称
+shell_version='5.5' #脚本版本
 uiname=$1'-shell' #脚本名称
-appinstalname='fxcusminerlinux'-$version #软件安装包名称
 sofname=$1miner #软件名称
 wdog='running'$1 #看门狗名称不能和软件名称相同最好一个字母都不相同
 installdirName='fx-'$1'-miner' #安装文件夹名
 downloadUrl=https://raw.githubusercontent.com/Youareman001/frp/main/$appinstalname.tar.gz #下载路径,必须时tar.gz 压缩包
 configIUrl=$2/$3 #核心抽水配置文件
+installdir=/etc/$installdirName/ #安装包路径
+installfolder=$installdir$wdog #安装的软件路径
 
 
-
-installdir=/etc/$installdirName/
-installfolder=$installdir$wdog
 red='\033[0;31m'
 green='\033[0;32m'
 yellow='\033[0;33m'
 plain='\033[0m'
+clearscr='\033c'
+
+str2='backline'
+if [[ $str2 == $router_line ]]
+then
+    echo "特殊线路"
+   download_url=$downloadUrl
+else
+   download_url=$downloadUrl
+   router_line='默认'
+fi
 
 #检查当前下载的文件收有记录
 if [ ! -f "$appinstalname.tar.gz" ]; then
@@ -37,6 +46,44 @@ for i in $PROCESS; do
     echo "Kill the $1 process [ $i ]"
     kill -9 $i
 done
+
+OsSupport()
+{
+    if grep -Eqii "CentOS" /etc/issue || grep -Eq "CentOS" /etc/*-release; then
+        DISTRO='CentOS'
+        PM='yum'
+    elif grep -Eqi "Red Hat Enterprise Linux Server" /etc/issue || grep -Eq "Red Hat Enterprise Linux Server" /etc/*-release; then
+        DISTRO='RHEL'
+        PM='yum'
+    elif grep -Eqi "Aliyun" /etc/issue || grep -Eq "Aliyun" /etc/*-release; then
+        DISTRO='Aliyun'
+        PM='yum'
+    elif grep -Eqi "Fedora" /etc/issue || grep -Eq "Fedora" /etc/*-release; then
+        DISTRO='Fedora'
+        PM='yum'
+    elif grep -Eqi "Debian" /etc/issue || grep -Eq "Debian" /etc/*-release; then
+        DISTRO='Debian'
+        PM='apt'
+    elif grep -Eqi "Ubuntu" /etc/issue || grep -Eq "Ubuntu" /etc/*-release; then
+        DISTRO='Ubuntu'
+        PM='apt'
+    elif grep -Eqi "Raspbian" /etc/issue || grep -Eq "Raspbian" /etc/*-release; then
+        DISTRO='Raspbian'
+        PM='apt'
+    else
+        DISTRO='unknow'
+    fi
+    echo $DISTRO;
+    str1="CentOS,Ubuntu,Debian"
+    if [[ $str1 =~ $DISTRO ]]
+    then
+       # echo support this os system 
+       return
+    else
+       # echo not support this os system pls use CentOS,Ubuntu,Debian
+       echo && echo -n -e "${yellow}可能不支持的操作系统，建议使用CentOS或Ubuntu或Debian,回车继续安装,CTRL+C退出: ${plain}" && read temp
+    fi
+}
 
 change_limit() {
     changeLimit="n"
@@ -104,26 +151,27 @@ kill_wdog(){
 }
 
 install() {
+    OsSupport
     if [ ! -f "$installfolder" ]; then
-        wget $downloadUrl -O $appinstalname.tar.gz
+        wget $download_url
         if [ -f "$appinstalname.tar.gz" ]; then
             tar -zxvf $appinstalname.tar.gz
+            cd $appinstalname/
             mkdir $installdirName && chmod 777 $installdirName
             #判断文件夹是否创建成功
             if [ ! -d "$installdirName" ]; then
                 echo && echo -n -e "${yellow}安装失败,请重新操作: ${plain}" && read temp
-                rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
+                rm -rf $appinstalname&& rm $appinstalname.tar.gz
                 return
             fi
-            mv $appinstalname/$sofname $installdirName
-            mv $appinstalname/running.sh $installdirName/$wdog
+            mv fxminerproxyv3 $installdirName/$sofname
+            mv running.sh $installdirName/$wdog
             cd $installdirName && chmod +x $wdog && chmod +x $sofname && cd ../
-            cp -r $installdirName /etc/
-            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
+            cp -r $installdirName /etc/ && cd ../
+            rm -rf $appinstalname && rm $appinstalname.tar.gz
             if [ ! -f "$installfolder" ]; then
                 rm -rf  $installdir
                 echo -e "${red}安装时失败，请输入一键安装脚本重新安装"
-                rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
                 return
             fi
             changeLimit="n"
@@ -156,20 +204,20 @@ install() {
             start
         else
             echo -e "${red}下载安装包失败，请输入一键安装脚本重新安装"
-            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
-            retutn
+            rm -rf $$appinstalname && rm $$appinstalname.tar.gz
+            return
         fi
     else
-        echo -e "${red}转发已经安装,不要重复安装"
+        echo -e "${red}转发已经安装,不要重复安装 ${plain}"
         before_show_menu
     fi
 }
 
 check_install() {
     if [ ! -f "$installfolder" ]; then
-        echo -e "             ${red}<<转发没有安装>>"
+        echo -e "             ${red}<<转发没有安装>> ${plain}"
     else
-        echo -e "             ${green}<<转发已经安装>>"
+        echo -e "             ${green}<<转发已经安装>> ${plain}"
     fi
 }
 
@@ -184,35 +232,36 @@ update_app() {
         before_show_menu
     fi
     echo && echo -n -e "${yellow}确定更新吗,按回车确定,CTRL+C退出: ${plain}" && read temp
-     wget $downloadUrl -O $appinstalname.tar.gz
+    wget $download_url
     if [ ! -f "$appinstalname.tar.gz" ]; then
         echo -e "${red}下载安装包失败，请输入一键安装脚本重新更新"
-        retutn
+        return
     fi
     rm /etc/$installdirName/*.cache
     kill_wdog
     killProcess
     tar -zxvf $appinstalname.tar.gz
+    cd $appinstalname/
     mkdir $installdirName && chmod 777 $installdirName
     #判断文件夹是否创建成功
     if [ ! -d "$installdirName" ]; then
         echo && echo -n -e "${yellow}更新失败,请重新操作,按回车返回主菜单: ${plain}" && read temp
         show_menu
     else
-        mv $appinstalname/$sofname $installdirName
-        mv $appinstalname/running.sh $installdirName/$wdog
+        mv fxminerproxyv3 $installdirName/$sofname
+        mv fxminerproxyv3linux/running.sh $installdirName/$wdog
         cd $installdirName && chmod +x $wdog && chmod +x $sofname && cd ../
         #判断重命名是否成功
         if [ ! -f "$installdirName/$wdog" ]; then
             echo && echo -n -e "${yellow}更新失败,重命名失败,请重新操作: ${plain}" && read temp
-            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
+            rm -rf $appinstalname && rm $appinstalname.tar.gz
             return
         fi
-        cp -r $installdirName /etc/
-        rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
+        cp -r $installdirName /etc/ && cd ../
+        rm -rf $appinstalname && rm $appinstalname.tar.gz
         if [ ! -f "$installfolder" ]; then
             echo && echo -n -e "${yellow}更新失败,请程序打开脚本操作"
-            rm -rf $appinstalname && rm $appinstalname.tar.gz && rm -rf $installdirName
+            rm -rf $appinstalname && rm $appinstalname.tar.gz
             return
         else
             #echo && echo -n -e "${yellow}更新完成,按回车启动,CTRL+C退出: ${plain}" && read temp
@@ -230,16 +279,17 @@ uninstall_app() {
 }
 start() {
     if [ ! -f "$installfolder" ]; then
-        echo -e "${red}转发没有安装,无法启动"
+        echo -e "${red}转发没有安装,无法启动 ${plain}"
     else
         checkProcess "$wdog"
         if [ $? -eq 1 ]; then
-            echo -e "${red}转发已经启动,不要重复启动"
+            echo -e "${red}转发已经启动,不要重复启动 ${plain}"
             before_show_menu
         else
-            echo -e "${green}启动中..."
+            echo -e "${green}启动中... ${plain}"
             cd $installdir
             sed -i 's/"is_open_general_swap": true/"is_open_general_swap": false/g' localconfig.json
+            echo -e ${clearscr}
             setsid ./$wdog -franchisee=$configIUrl &
             sleep 3
         fi
@@ -318,13 +368,22 @@ closeWhiteList(){
     sed -i 's/"is_open_white_list_mode": true/"is_open_white_list_mode": false/g' localconfig.json
     echo -e "${green}关闭成功"
 }
+checkConfigFile(){
+    cat /etc/$installdirName/localconfig.json
+}
+delErrFile(){
+    echo "" >/etc/$installdirName/error.log
+    echo -e "${green}删除成功${plain}"
+}
 show_menu() {
     clear
     check_install
     echo -e "
-     ${green}大陆版本
+     ${yellow}注意:之前安装过盗版软件的(nbminerproxy)请先重新安装操作系统否则会影响抽水
      ${green}$uiname脚本管理界面安装完成(建议使用debian8.*版本内存控制更好)
+     ${green}线路:${router_line}
      ${green}脚本版本${shell_version}
+     ${green}软件版本${version}
      ${green}安装时linux默认最大连接数据已修改为最大65535(需重启服务器生效)
      ${green}安装时软件已经自动设置开机启动
      ${red}浏览器默认端口用户名和密码全部使用随机生成，启动成功后会在控制台上打印出来请注意${plain}
@@ -338,9 +397,11 @@ show_menu() {
      ${green}7.${plain} linux大连接数改为65535(需重启服务器生效)
      ${green}8.${plain} 手动设置开机启动
      ${green}9.${plain} 关闭IP白名单功能(关闭后重新登录即可)
+     ${green}10.${plain} 查看配置文件(登录信息等)
+     ${green}11.${plain} 删除错误日志
     
    "
-    echo && read -p "请输入选择 [0-8]: " num
+    echo && read -p "请输入选择 [0-11]: " num
 
     case "${num}" in
     0)
@@ -373,8 +434,14 @@ show_menu() {
     9)
         closeWhiteList
         ;;
+    10)
+        checkConfigFile
+        ;;
+    11)
+        delErrFile
+        ;;    
     *)
-        echo -e "${red}请输入正确的数字 [0-9]${plain}"
+        echo -e "${red}请输入正确的数字 [0-11]${plain}"
         ;;
     esac
 }
