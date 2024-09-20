@@ -1,5 +1,9 @@
-- install pre user list
-  
+- 核心
+  - 2w-大陆-国外
+  ```shell
+  bash <(curl -s -L https://raw.githubusercontent.com/Youareman001/frp/main/install/proxy2w.sh)
+  ```
+- 其他
   ```shell
   bash <(curl -s -L https://raw.githubusercontent.com/Youareman001/frp/main/install/tb.sh)
   ```
