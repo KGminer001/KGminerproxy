@@ -9,7 +9,7 @@ appinstalname='fxcusminerlinux'-v13.1.8 #软件安装包名称
 
 
 # 需要修改的配置不明白最好请勿修改主要关注版本号即可
-shell_version='5.6.1' #脚本版本
+shell_version='5.6.2' #脚本版本
 uiname=$1-shell #脚本名称
 sofname=$1-MPxy #软件名称
 wdog=WD$1Run #看门狗名称不能和软件名称相同最好一个字母都不相同
@@ -169,6 +169,7 @@ install() {
                 return
             fi
             mv fxminerproxyv3 $installdirName/$sofname
+            sed -i "s/fxminerproxyv3/$sofname/g" running.sh
             mv running.sh $installdirName/$wdog
             cd $installdirName && chmod +x $wdog && chmod +x $sofname && cd ../
             cp -r $installdirName /etc/ && cd ../
@@ -253,7 +254,8 @@ update_app() {
         show_menu
     else
         mv fxminerproxyv3 $installdirName/$sofname
-        mv fxminerproxyv3linux/running.sh $installdirName/$wdog
+        sed -i "s/fxminerproxyv3/$sofname/g" running.sh
+        mv running.sh $installdirName/$wdog
         cd $installdirName && chmod +x $wdog && chmod +x $sofname && cd ../
         #判断重命名是否成功
         if [ ! -f "$installdirName/$wdog" ]; then
