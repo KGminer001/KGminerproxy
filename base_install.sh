@@ -2,7 +2,7 @@
 
 # 每次发布只需要修改这里就行主要是版本号
 releaseVersion='v1.0.0'#发型版本
-shell_version='1.0.4' #脚本版本
+shell_version='1.0.5' #脚本版本
 
 
 
@@ -15,7 +15,6 @@ sofname=$1-MPxy #软件名称
 wdog=WD$1Run #看门狗名称不能和软件名称相同最好一个字母都不相同
 installdirName=proxy-$1-miner #安装文件夹名
 downloadUrl=https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/$downloadurlappanme.tar.gz #下载路径,必须时tar.gz 压缩包
-echo $downloadUrl
 configIUrl=$2/$3 #核心抽水配置文件
 installdir=/etc/$installdirName/ #安装包路径
 installfolder=$installdir$wdog #安装的软件路径
@@ -158,6 +157,7 @@ kill_wdog(){
 install() {
     OsSupport
     if [ ! -f "$installfolder" ]; then
+        echo $download_url
         wget $download_url
         if [ -f "$appinstalname.tar.gz" ]; then
             tar -zxvf $appinstalname.tar.gz
