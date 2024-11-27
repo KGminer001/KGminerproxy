@@ -1,8 +1,8 @@
 #bin
 
 # 每次发布只需要修改这里就行主要是版本号
-releaseVersion='v1.0.0'#发型版本
-shell_version='1.0.5' #脚本版本
+releaseVersion='v1.0.0' #发型版本
+shell_version='1.0.6' #脚本版本
 
 
 
