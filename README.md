@@ -70,8 +70,6 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 | 500 ＜ X ＜ 1000 台  | 2 核心     | 2G       | 10Mps    |
 | 1000 ＜ X ＜ 2000 台 | 2 核心     | 4G       | 50Mps    |
 
-<p><a target="_blank" rel="noopener noreferrer"><img width="700" height="250" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/fwqpz.png"></a></p>
-
 ## ⭐️ 更新日志
 
 V1.0.1
