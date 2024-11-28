@@ -38,7 +38,7 @@
 bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/kg.sh)
 ```
 
-<p><a target="_blank" rel="noopener noreferrer"><img width="900" height="150" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/sjdk.png"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="900" height="200" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/sjdk.png"></a></p>
 
 ## 服务端-Windows 软件下载
 
