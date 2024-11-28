@@ -4,7 +4,7 @@
 [简体中文]: https://github.com/tiancao2022/NBMinerProxy/blob/master/readmes/zh.md
 [randlogin]: https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/randlogin.png
 
-<p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="400" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/logo-1.png" alt="Vue logo"></a></p>
+<p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/logo-1.png" alt="Vue logo"></a></p>
 <p align="center">
   <a>
     <img src="https://img.shields.io/badge/Release-10.1.0-orgin.svg" alt="travis">
@@ -22,13 +22,13 @@
 </p>
   <div align="center">
 <h2>
-    <p>⚡ 固定作者开发费用抽水千分之2.7,纯转发不抽水<p>
+    <p>⚡ 固定作者开发费用抽水千分之2,纯转发不抽水<p>
 </h2>
 </div>
 
-# NBMinerProxy
+# KGMinerProxy
 
-支持: `BTC`, `LTC`, `ZEC`, `ETC`, `ETHF`, `ETHW`, `RVN`, `CFX`, `BEAM`, `ERGO`, `BTG`, `AE`, `FLUX`, `FIRO`, `NEOXA`, `XMR`, `KASPA`, `GRIN`, `KDA`, `DASH`, `CKB` , `ZEN` , `NEXA`, `HNS`, `BCH`, `SC`等多个币种抽水，不爆内存，体验拉满，4000 台无压力不崩溃，精确到单台设备的 24 小时数据统计、自定义隧道推送工具等强大功能.
+支持: BTC、LTC、BCH、KASPA、ETC、SC、ZEC、RVN、CFX、ETHF、ETHW、BEAM、ERGO、BTG、AE、FLUX、FIRO、NEOXA、XMR、GRIN、KDA、DASH、CKB、ZEN、NEXA、HNS、等多个币种抽水，不爆内存，体验拉满，4000 台无压力不崩溃，精确到单台设备的 24 小时数据统计、自定义隧道推送工具等强大功能.
 
 ## 服务端-Linux 一键工具箱
 
