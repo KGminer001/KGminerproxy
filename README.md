@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="travis">
   </a>
     <a>
-    <img src="https://img.shields.io/badge/stars-blue.svg" alt="travis">
+    <img src="https://img.shields.io/badge/stars-200-blue.svg" alt="travis">
   </a>
   
 </p>
