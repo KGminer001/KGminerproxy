@@ -59,12 +59,16 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 - Windows 客户端 MultiEnc 软件下载 [本地加密隧道\_V1.0.0](https://github.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows.zip)
 
-## ⭐️ 推荐服务器配置
+## ⭐️ 服务器配置选择
 
-| 列 1 标题 | 列 2 标题 | 列 3 标题 |
-| --------- | --------- | --------- |
-| 数据 1    | 数据 2    | 数据 3    |
-| 数据 4    | 数据 5    | 数据 6    |
+注:服务器的配置要求中 CPU 核心数量以及内存的配置并不用太高，反而带宽过窄会严重影响服务器的运行。
+
+| 带机量 X             | CPU 核心数 | 内存大小 | 流量带宽 |
+| -------------------- | ---------- | -------- | -------- |
+| X ＜ 250 台          | 1 核心     | 1G       | 2Mps     |
+| 250 ＜ X ＜ 500 台   | 1 核心     | 2G       | 4Mps     |
+| 500 ＜ X ＜ 1000 台  | 2 核心     | 2G       | 10Mps    |
+| 1000 ＜ X ＜ 2000 台 | 2 核心     | 4G       | 50Mps    |
 
 <p><a target="_blank" rel="noopener noreferrer"><img width="700" height="250" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/fwqpz.png"></a></p>
 
