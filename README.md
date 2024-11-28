@@ -1,14 +1,10 @@
-```shell
-bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/kg.sh)
-```
-
 [homeicon]: https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/home-en.png
 [rtlogicon]: https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/rt-log.png
 [nbminerproxyv3.zip]: https://github.com/tiancao2022/NBMinerProxy/releases/download/10.1.0/nbminerproxyv3windows.zip
 [简体中文]: https://github.com/tiancao2022/NBMinerProxy/blob/master/readmes/zh.md
 [randlogin]: https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/randlogin.png
 
-<p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="600" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/logo-1.png" alt="Vue logo"></a></p>
+<p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="400" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/logo-1.png" alt="Vue logo"></a></p>
 <p align="center">
   <a>
     <img src="https://img.shields.io/badge/Release-10.1.0-orgin.svg" alt="travis">
