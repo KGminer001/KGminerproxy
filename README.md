@@ -7,10 +7,10 @@
 <p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/logo-1.png" alt="Vue logo"></a></p>
 <p align="center">
   <a href="https://kgminer.gitbook.io/kgminer-docs">
-    <img src="https://img.shields.io/badge/教程网站-green.svg" alt="travis">
+    <img src="https://img.shields.io/badge/教程网站-❤️-green.svg" alt="travis">
   </a>
   <a href="https://t.me/kgminerproxy">
-    <img src="https://img.shields.io/badge/加入聊天-green.svg" alt="travis">
+    <img src="https://img.shields.io/badge/加入聊天-🔥-green.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/软件版本-1.0.1-orgin.svg" alt="travis">
@@ -25,13 +25,13 @@
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="travis">
   </a>
     <a>
-    <img src="https://img.shields.io/badge/stars-200-blue.svg" alt="travis">
+    <img src="https://img.shields.io/badge/stars-⭐️200-blue.svg" alt="travis">
   </a>
 
 </p>
   <div align="center">
 <h2>
-    <p>⚡ 固定作者开发费用抽水千分之2,纯转发不抽水<p>
+    <p>⚡ 固定作者开发费用抽水千分之2,纯转发不抽水⚡<p>
 </h2>
 </div>
 
