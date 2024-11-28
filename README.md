@@ -41,9 +41,9 @@
 
 ## 服务端软件安装
 
-### 1.Linux 系统一键安装脚本(支持 Ubuntu、CentOS...)
+### 1.Linux 系统一键安装脚本(支持 Ubuntu、CentOS 等)
 
-<p>root用户直接执行以下命令, 根据提示选择对应功能即可。系统采用随机端口用户名和密码，启动的时候请注意控制台的打印，务必记住初始账号密码，进入软件可自定义修改。</p>
+- root 用户直接执行以下命令, 根据提示选择对应功能即可。系统采用随机端口用户名和密码，启动的时候请注意控制台的打印，务必记住初始账号密码，进入软件可自定义修改。
 
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/kg.sh)
@@ -51,10 +51,13 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 <p><a target="_blank" rel="noopener noreferrer"><img width="900" height="220" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/sjdk.png"></a></p>
 
-### 2.Windows 软件下载(推荐安装 win10、win7 系统)
+### 2.Windows 系统安装部署(推荐安装 win10、win7 系统)
 
-- 服务端隧道加密 windows 服务端下载
+- windows 服务端下载
+
+```
   [服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.0.0.7z)
+```
 
 ## 客户端-本地加密隧道
 
@@ -69,10 +72,6 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 如果使用部署模式 1：该模式矿机直连服务端代理，无需客户端代理，链路如下所示
 
 矿机->运营商->服务端代理(香港云主机)->矿池
-
-如果使用部署模式 2：该模式每台矿机上安装客户端代理，然后矿机连客户端代理，链路如下所示
-
-矿机->客户端代理(本地局域网)->运营商->服务端代理(香港云主机)->矿池
 
 如果使用部署模式 3：该模式在本地局域网随便找一台机器，然后运行客户端代理，局域网上所有机器连这台安装了客户端代理的机器，然后客户端代理连服务端代理，链路如下所示
 
