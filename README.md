@@ -49,19 +49,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ## 客户端-本地加密隧道
 
-- 国际网络 一键安装脚本(linux amd64 架构)
-
-```shell
-bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install_zh.sh) https://raw.githubusercontent.com/tiancao2022/SSLMIX/master ssmixlinux
-```
-
-- 国内网络 一键安装脚本(linux amd64 架构)
-
-```shell
-bash <(curl -s -L https://cdn.jsdelivr.net/gh/tiancao2022/SSLMIX/install_zh.sh) https://cdn.jsdelivr.net/gh/tiancao2022/SSLMIX@master ssmixlinux
-```
-
-- Windows 客户端下载 [本地加密隧道\_V1.0.0](https://github.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows.zip)
+- Windows 客户端 MultiEnc 下载 [本地加密隧道\_V1.0.0](https://github.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows.zip)
 
 ## NBMinerProxy 部署模式
 
@@ -87,85 +75,19 @@ bash <(curl -s -L https://cdn.jsdelivr.net/gh/tiancao2022/SSLMIX/install_zh.sh) 
 
 ## 更新日志
 
-1.2.3
+1.0.1
 
-- 1.增加新币种 IRON
-- 2.优化抽水转化率显示提升各币种抽水转换率
-- 3.优化心动 A11 矿机的抽水解决在挖矿账户中会显示客户矿机名字的 BUG(抽水高级参数加-skip-special=innominer)
-
-  1.2.2
-
-- 1.增加新币种 ZIL,ETHW_ETHF_ZIL,DCRN、RXD
-- 2.修改 ETC,ETHW,ETF,ETC_ZIL 鱼池大比例抽水无损
-- 3.针对鱼池 ssl 连接的问题(鱼池 ssl 证书过期了没有更换),连接时加入 sslip://前缀,其他矿池请使用常规的 ssl://方式
-- 4.优化抽水比例显示过大
-- 5.增加矿机的实时算力计算与否可以通过用户设置默认关闭
-- 6.增加纯转发支持 ssl、sslmix 协议
-
-  1.2.1
-
-- 1.增加 SC 币种
-- 2.增加双挖 ETC/ZIL ETHF 和 ETHW 同样使用
-- 3.矿机界面新功能增加添加抽水和用户矿机得无效无效抽水日志
-- 4.标题栏可选择搜索
-- 5.端口界面优化
-- 6.隧道加密自动地址改为用户填写得 API 地址为主 IP
-
-  1.2.0
-
-- 1.增加抽水时补偿登录用时
-- 2.修改所有币种抽水用时算法统一
-- 3.修改特殊矿机无法计算抽水份额的问题
-- 4.LTC 金贝 BUG 修改
-- 5.解决纯转发导致程序重启的问题
-
-  1.1.9
-
-- 1.解决 10.0.2 和 10.0.3 版本一些币种抽水异常的问题（noce 值改错了）
-- 2.解决隧道加密数据量太大导致无法加载配置的 BUG
-- 3.修改一些币种可能出现无法抽水的 BUG 建议更新
-
-  1.1.8
-
-- 1.NEXA DNX HNS BCH ZEN DNX 币种
-- 2.记录错误日志自动生成记录提示
-- 3.记录每个抽水账户的份额难度延迟等
-- 4.增加了同矿池下选择 viabtc 优化抽水原理是作者和用户抽水使用同一个矿池进行抽水
-- 5.端口界面连接日志
-- 6.隧道加密增加一键获取已经配置的代理信息
-- 7.APIKAY 功能
-- 8.首页显示日志条数提醒
-- 9.首页显示实时网速
-
-  1.1.7
-
-- 优化:
-- 1.端口界面 UI 优化
-- 2.日志界面 UI 优化
-- 3.KDA CKB BUG BUG 算力显示抽水 BUG 优化
-- 修改:
-- 1.矿工界面展开图标抽水转换率显示 BUG 修改
-- 2.修改了矿机日志查看有时候查询到的矿机信息不确定的 BUG
-- 3.矿机搜索可以直接输入不存在的信息
-- 4.登陆界面有时无法登陆的 BUG 修改
-
-  1.1.5
-
-- 1.增加单个矿机 UI 界面显示历史算力抽水份额
-- 2.增肌单个矿机实时日志系统(可实时显示矿机上报份额抽水份额等帮助分析类似挖矿内核)
-- 3.增加单个矿机历史日志显示
-- 4.增加单个旷工页面显示当个旷工的历史信息
-- 5.增加抽水历史统计曲线帮助分析抽水份额
-- 6.增加首页 SSH 远程访问功能
-- 7.增加通知功能 email 和 server 酱通知核心事件如矿机掉线通知等
-- 8.增加二级密码 IP 白名单功能
-- 9.增加钱包添加功能可连接第三方矿池显示历史曲线和收益等数据
-- 10.增加 CKB，DASH，KDA 币种
-- 11.调整 UI 界面优化 UI 界面
+- 1.调整 UI 界面优化 UI 界面
+- 2.优化浏览器加载缓存机制
+- 3.上线 MultiEnc 本地加密客户端
 
   1.0.0
 
-- 1.V1 版本大更新后面出更新说明 临时上线解决安全问题 UI 还有 10%没有完成 用户先更新
+- 1.转发抽水基于 Golang 技术栈(高性能框架)+C 技术开发，WEB 服务基于 VUE 技术开发
+- 2.安全稳定：客户端+服务端模式(也可单独服务端模式)，客户端加密混淆、服务端解密解混淆
+- 3.全币种支持加密，全币种支持抽水(ETH/ETC/BTC/BCH/LTC/ERG/BSV/XMR 等)
+- 4.性能强劲，CPU 占用低，可以自定义抽水比例，WEB 管理简洁清晰
+- 5.开箱即用：All-In-One 打包，一键搭建运行，支持 Liunx Windows 多平台运行
 
 ## 特色
 
