@@ -75,13 +75,13 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ## 更新日志
 
-1.0.1
+V1.0.1
 
-- 1.调整 UI 界面优化 UI 界面
+- 1.调整 UI 界面并优化
 - 2.优化浏览器加载缓存机制
 - 3.上线 MultiEnc 本地加密客户端
 
-  1.0.0
+V1.0.0
 
 - 1.转发抽水基于 Golang 技术栈(高性能框架)+C 技术开发，WEB 服务基于 VUE 技术开发
 - 2.安全稳定：客户端+服务端模式(也可单独服务端模式)，客户端加密混淆、服务端解密解混淆
