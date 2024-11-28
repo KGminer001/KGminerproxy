@@ -53,9 +53,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ### 2.Windows 系统安装部署(推荐安装 win10、win7 系统)
 
-- windows 服务端下载
-
-  Windows 服务端 KGminerproxy 软件下载[服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.0.0.7z)
+- Windows 服务端 KGminerproxy 软件下载[服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.0.0.7z)
 
 ## ⭐️ 客户端-本地加密隧道
 
