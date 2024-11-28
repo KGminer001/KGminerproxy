@@ -9,14 +9,17 @@
   <a href="https://kgminer.gitbook.io/kgminer-docs">
     <img src="https://img.shields.io/badge/教程网站-green.svg" alt="travis">
   </a>
+  <a href="https://t.me/kgminerproxy">
+    <img src="https://img.shields.io/badge/加入聊天-green.svg" alt="travis">
+  </a>
   <a>
-    <img src="https://img.shields.io/badge/Release-1.0.1-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/软件版本-1.0.1-orgin.svg" alt="travis">
+  </a>
+    <a>
+    <img src="https://img.shields.io/badge/开发语言-GoLang-green.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Last_Update-2024 11 20-orgin.svg" alt="travis">
-  </a>
-  <a>
-    <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="travis">
@@ -24,10 +27,7 @@
     <a>
     <img src="https://img.shields.io/badge/stars-200-blue.svg" alt="travis">
   </a>
-  <a href="https://t.me/kgminerproxy">
-    <img src="https://img.shields.io/badge/加入聊天-green.svg" alt="travis">
-  </a>
-  
+
 </p>
   <div align="center">
 <h2>
