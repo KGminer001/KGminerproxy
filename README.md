@@ -39,7 +39,7 @@
 
 支持: BTC、LTC、BCH、KASPA、ETC、SC、ZEC、RVN、CFX、ETHF、ETHW、BEAM、ERGO、BTG、AE、FLUX、FIRO、NEOXA、XMR、GRIN、KDA、DASH、CKB、ZEN、NEXA、HNS、等多个币种抽水，不爆内存，体验拉满，4000 台无压力不崩溃，精确到单台设备的 24 小时数据统计、自定义隧道推送工具等强大功能.
 
-## 服务端软件安装
+## ⭐️ 服务端软件安装
 
 ### 1.Linux 系统一键安装脚本(支持 Ubuntu、CentOS 等)
 
@@ -55,11 +55,9 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 - windows 服务端下载
 
-```
   [服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.0.0.7z)
-```
 
-## 客户端-本地加密隧道
+## ⭐️ 客户端-本地加密隧道
 
 - Windows 客户端 MultiEnc 下载 [本地加密隧道\_V1.0.0](https://github.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows.zip)
 
@@ -67,7 +65,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 <p><a target="_blank" rel="noopener noreferrer"><img width="1000" height="180" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/TollSys4.jpg"></a></p>
 
-## 部署模式解释
+## ⭐️ 部署模式解释
 
 如果使用部署模式 1：该模式矿机直连服务端代理，无需客户端代理，链路如下所示
 
@@ -77,11 +75,11 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 矿机->客户端代理(本地局域网)->运营商->服务端代理(香港云主机)->矿池
 
-## 推荐服务器配置
+## ⭐️ 推荐服务器配置
 
 <p><a target="_blank" rel="noopener noreferrer"><img width="700" height="250" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/fwqpz.png"></a></p>
 
-## 更新日志
+## ⭐️ 更新日志
 
 V1.0.1
 
@@ -97,7 +95,7 @@ V1.0.0
 - 4.性能强劲，CPU 占用低，可以自定义抽水比例，WEB 管理简洁清晰
 - 5.开箱即用：All-In-One 打包，一键搭建运行，支持 Liunx Windows 多平台运行
 
-## 特色
+## ⭐️ 特色
 
 - 支持 Windows & Linux.
 - 日志系统.
