@@ -32,7 +32,7 @@
 
 ## 服务端软件安装
 
-###1.Linux 系统一键安装脚本(支持 Ubuntu、CentOS...)
+- 1.Linux 系统一键安装脚本(支持 Ubuntu、CentOS...)
 
 <p>root用户直接执行以下命令, 根据提示选择对应功能即可。系统采用随机端口用户名和密码，启动的时候请注意控制台的打印，务必记住初始账号密码，进入软件可自定义修改。</p>
 
@@ -42,7 +42,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 <p><a target="_blank" rel="noopener noreferrer"><img width="900" height="220" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/sjdk.png"></a></p>
 
-### Windows 软件下载(推荐安装 win10、win7 系统)
+- 2.Windows 软件下载(推荐安装 win10、win7 系统)
 
 - 服务端隧道加密 windows 服务端下载
   [服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.0.0.7z)
@@ -61,7 +61,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 bash <(curl -s -L https://cdn.jsdelivr.net/gh/tiancao2022/SSLMIX/install_zh.sh) https://cdn.jsdelivr.net/gh/tiancao2022/SSLMIX@master ssmixlinux
 ```
 
-- 本地端隧道加密 windows 客户端下载 [本地加密隧道\_V1.0.0](https://github.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows.zip)
+- Windows 客户端下载 [本地加密隧道\_V1.0.0](https://github.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows.zip)
 
 ## NBMinerProxy 部署模式
 
