@@ -81,7 +81,7 @@ bash <(curl -s -L https://cdn.jsdelivr.net/gh/tiancao2022/SSLMIX/install_zh.sh) 
 
 ## 推荐服务器配置
 
-<p><a target="_blank" rel="noopener noreferrer"><img width="700" height="180" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/fwqpz.png"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="700" height="250" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/fwqpz.png"></a></p>
 
 ## 更新日志
 
