@@ -7,16 +7,19 @@
 <p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/logo-1.png" alt="Vue logo"></a></p>
 <p align="center">
   <a>
-    <img src="https://img.shields.io/badge/Release-10.1.0-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Release-1.0.1-orgin.svg" alt="travis">
   </a>
   <a>
-    <img src="https://img.shields.io/badge/Last_Update-2023 03 09-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/Last_Update-2024 11 20-orgin.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/Language-GoLang-green.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="travis">
+  </a>
+    <a>
+    <img src="https://img.shields.io/badge/stars-blue.svg" alt="travis">
   </a>
   
 </p>
