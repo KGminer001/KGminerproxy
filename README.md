@@ -30,7 +30,9 @@
 
 支持: BTC、LTC、BCH、KASPA、ETC、SC、ZEC、RVN、CFX、ETHF、ETHW、BEAM、ERGO、BTG、AE、FLUX、FIRO、NEOXA、XMR、GRIN、KDA、DASH、CKB、ZEN、NEXA、HNS、等多个币种抽水，不爆内存，体验拉满，4000 台无压力不崩溃，精确到单台设备的 24 小时数据统计、自定义隧道推送工具等强大功能.
 
-## 服务端-Linux 一键工具箱
+## 服务端软件安装
+
+###1.Linux 系统一键安装脚本(支持 Ubuntu、CentOS...)
 
 <p>root用户直接执行以下命令, 根据提示选择对应功能即可。系统采用随机端口用户名和密码，启动的时候请注意控制台的打印，务必记住初始账号密码，进入软件可自定义修改。</p>
 
@@ -38,19 +40,19 @@
 bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/kg.sh)
 ```
 
-<p><a target="_blank" rel="noopener noreferrer"><img width="900" height="200" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/sjdk.png"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="900" height="220" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/sjdk.png"></a></p>
 
-## 服务端-Windows 软件下载
+### Windows 软件下载(推荐安装 win10、win7 系统)
 
 - 服务端隧道加密 windows 服务端下载
-  [服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/nbminerproxyv3windows.zip)
+  [服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.0.0.7z)
 
 ## 客户端-本地加密隧道
 
 - 国际网络 一键安装脚本(linux amd64 架构)
 
 ```shell
-bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/SSLMIX/master/install_zh.sh) https://raw.githubusercontent.com/tiancao2022/SSLMIX/master ssmixlinux
+bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install_zh.sh) https://raw.githubusercontent.com/tiancao2022/SSLMIX/master ssmixlinux
 ```
 
 - 国内网络 一键安装脚本(linux amd64 架构)
@@ -59,7 +61,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/tiancao2022/SSLMIX/master/in
 bash <(curl -s -L https://cdn.jsdelivr.net/gh/tiancao2022/SSLMIX/install_zh.sh) https://cdn.jsdelivr.net/gh/tiancao2022/SSLMIX@master ssmixlinux
 ```
 
-- 本地端隧道加密 windows 客户端下载 [本地加密隧道\_V1.4.5](https://github.com/tiancao2022/NBMinerProxy/blob/master/nbminerproxyv3windows_client1.45.zip)
+- 本地端隧道加密 windows 客户端下载 [本地加密隧道\_V1.0.0](https://github.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows.zip)
 
 ## NBMinerProxy 部署模式
 
