@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/教程网站-❤️-green.svg" alt="travis">
   </a>
   <a href="https://t.me/kgminerproxy">
-    <img src="https://img.shields.io/badge/加入聊天-🔥-green.svg" alt="travis">
+    <img src="https://img.shields.io/badge/加入聊天-🔥-red.svg" alt="travis">
   </a>
   <a>
     <img src="https://img.shields.io/badge/软件版本-1.0.1-orgin.svg" alt="travis">
