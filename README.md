@@ -45,7 +45,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 - 服务端隧道加密 windows 服务端下载
   [服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/nbminerproxyv3windows.zip)
 
-## 客户端-本地加密隧道 1
+## 客户端-本地加密隧道
 
 - 国际网络 一键安装脚本(linux amd64 架构)
 
