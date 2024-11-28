@@ -38,7 +38,7 @@
 bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/kg.sh)
 ```
 
-<p><a target="_blank" rel="noopener noreferrer"><img width="900" height="110" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/sjdk.png"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="900" height="150" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/sjdk.png"></a></p>
 
 ## 服务端-Windows 软件下载
 
@@ -63,7 +63,7 @@ bash <(curl -s -L https://cdn.jsdelivr.net/gh/tiancao2022/SSLMIX/install_zh.sh) 
 
 ## NBMinerProxy 部署模式
 
-<p><a target="_blank" rel="noopener noreferrer"><img width="1000" height="500" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/TollSys4.jpg"></a></p>
+<p><a target="_blank" rel="noopener noreferrer"><img width="1000" height="180" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/TollSys4.jpg"></a></p>
 
 ## 部署模式解释
 
