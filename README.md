@@ -21,6 +21,9 @@
     <a>
     <img src="https://img.shields.io/badge/stars-200-blue.svg" alt="travis">
   </a>
+      <a>
+    <img src="https://img.shields.io/badge/加入聊天组-200-blue.svg" alt="travis">
+  </a>
   
 </p>
   <div align="center">
