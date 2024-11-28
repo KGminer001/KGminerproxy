@@ -21,8 +21,8 @@
     <a>
     <img src="https://img.shields.io/badge/stars-200-blue.svg" alt="travis">
   </a>
-      <a>
-    <img src="https://img.shields.io/badge/加入聊天组-200-blue.svg" alt="travis">
+  <a href="https://t.me/kgminerproxy">
+    <img src="https://img.shields.io/badge/加入聊天-200-blue.svg" alt="travis">
   </a>
   
 </p>
