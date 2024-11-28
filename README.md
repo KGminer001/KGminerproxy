@@ -1,7 +1,6 @@
 [homeicon]: https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/home-en.png
 [rtlogicon]: https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/rt-log.png
-[nbminerproxyv3.zip]: https://github.com/tiancao2022/NBMinerProxy/releases/download/10.1.0/nbminerproxyv3windows.zip
-[简体中文]: https://github.com/tiancao2022/NBMinerProxy/blob/master/readmes/zh.md
+[简体中文]: https://github.com/KGminer001/KGminerproxy/blob/master/readmes/zh.md
 [randlogin]: https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/randlogin.png
 
 <p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/logo-1.png" alt="Vue logo"></a></p>
@@ -122,7 +121,7 @@ V1.0.0
     芯片机抽水转换率统计会比显卡慢一些通常要运行 24 小时后会接近你设置的值。时间还是以矿池为准。
 
 - 芯片机算力的问题
-  - 由于芯片机器不提交算力，nbminerproxy 是根据难度动态计算，10 分钟计算一次所以芯片机要等 10 分钟后才能显示，算力只做参考具体以矿池为准
+  - 由于芯片机器不提交算力，kgminerproxy 是根据难度动态计算，10 分钟计算一次所以芯片机要等 10 分钟后才能显示，算力只做参考具体以矿池为准
 - 本地矿机已经连接上了但是后台不显示
 - 不开抽水功能是否真的作者不抽水
   - 这个问题其实容易测试，可以用纯转发的软件测试对比算力。
