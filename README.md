@@ -59,21 +59,12 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 - Windows 客户端 MultiEnc 软件下载 [本地加密隧道\_V1.0.0](https://github.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows.zip)
 
-## NBMinerProxy 部署模式
-
-<p><a target="_blank" rel="noopener noreferrer"><img width="1000" height="180" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/TollSys4.jpg"></a></p>
-
-## ⭐️ 部署模式解释
-
-如果使用部署模式 1：该模式矿机直连服务端代理，无需客户端代理，链路如下所示
-
-矿机->运营商->服务端代理(香港云主机)->矿池
-
-如果使用部署模式 3：该模式在本地局域网随便找一台机器，然后运行客户端代理，局域网上所有机器连这台安装了客户端代理的机器，然后客户端代理连服务端代理，链路如下所示
-
-矿机->客户端代理(本地局域网)->运营商->服务端代理(香港云主机)->矿池
-
 ## ⭐️ 推荐服务器配置
+
+| 列 1 标题 | 列 2 标题 | 列 3 标题 |
+| --------- | --------- | --------- |
+| 数据 1    | 数据 2    | 数据 3    |
+| 数据 4    | 数据 5    | 数据 6    |
 
 <p><a target="_blank" rel="noopener noreferrer"><img width="700" height="250" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/fwqpz.png"></a></p>
 
