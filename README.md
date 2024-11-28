@@ -6,6 +6,9 @@
 
 <p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/logo-1.png" alt="Vue logo"></a></p>
 <p align="center">
+  <a href="https://kgminer.gitbook.io/kgminer-docs">
+    <img src="https://img.shields.io/badge/教程网站-green.svg" alt="travis">
+  </a>
   <a>
     <img src="https://img.shields.io/badge/Release-1.0.1-orgin.svg" alt="travis">
   </a>
@@ -22,7 +25,7 @@
     <img src="https://img.shields.io/badge/stars-200-blue.svg" alt="travis">
   </a>
   <a href="https://t.me/kgminerproxy">
-    <img src="https://img.shields.io/badge/加入聊天-200-blue.svg" alt="travis">
+    <img src="https://img.shields.io/badge/加入聊天-green.svg" alt="travis">
   </a>
   
 </p>
