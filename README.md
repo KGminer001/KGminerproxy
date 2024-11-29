@@ -59,7 +59,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ## ⭐️ 客户端-本地加密隧道
 
-- Windows 客户端 MultiEnc 软件下载 [本地加密隧道\_V1.0.0](https://github.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows.zip)
+- Windows 客户端 MultiEnc 软件下载 [本地加密隧道\_V1.0.0](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows.zip)
 
 ## ⭐️ 服务器配置选择
 
