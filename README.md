@@ -43,7 +43,7 @@
 
 ## ⭐️ 服务端软件安装
 
-### 1.Linux 系统一键安装脚本(支持ubuntu 18+ / centOS 7+等)
+### 1.Linux 系统一键安装脚本(支持 ubuntu 18+ / centOS 7+等)
 
 - root 用户直接执行以下命令, 根据提示选择对应功能即可。系统采用随机端口用户名和密码，启动的时候请注意控制台的打印，务必记住初始账号密码，进入软件可自定义修改。
 
@@ -55,7 +55,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ### 2.Windows 系统安装部署(推荐安装 win10、win7 系统)
 
-- Windows 服务端 KGminerproxy 软件下载[服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.0.0.7z)
+- Windows 服务端 KGminerproxy 软件下载[服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.0.1.7z)
 
 ## ⭐️ 客户端-本地加密隧道
 
