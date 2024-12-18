@@ -2,7 +2,7 @@
 
 # 每次发布只需要修改这里就行主要是版本号
 apprunname='kgminerproxy'
-appinstalname='kgminerproxylinux'-v1.0.1 #软件安装包名称
+appinstalname='kgminerproxylinux'-v1.0.2 #软件安装包名称
 
 # 需要修改的配置不明白最好请勿修改主要关注版本号即可
 shell_version='1.0.4' #脚本版本fv

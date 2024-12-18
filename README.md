@@ -74,6 +74,11 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ## ⭐️ 版本日志
 
+V1.0.2
+
+- 1.调整抽水机制，抽水曲线更加平衡
+- 2.优化软件响应速度
+
 V1.0.1
 
 - 1.调整 UI 界面并优化
