@@ -74,6 +74,10 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ## ⭐️ 版本日志
 
+V1.0.3
+
+- 1.修复本地加密下载 MultiEncConfig 配置文件数据为空的 BUG
+
 V1.0.2
 
 - 1.调整抽水机制，抽水曲线更加平衡
