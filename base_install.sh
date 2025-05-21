@@ -6,7 +6,7 @@ appinstalname='kgminerproxylinux'-v1.0.4 #软件安装包名称
 
 # 需要修改的配置不明白最好请勿修改主要关注版本号即可
 shell_version='v1.0.4' #脚本版本
-version='v1.0.3' #软件版本
+version='v1.0.4' #软件版本
 uiname=$1-shell #脚本名称
 sofname=$1-MPxy #软件名称
 wdog=WD$1Run #看门狗名称不能和软件名称相同最好一个字母都不相同
