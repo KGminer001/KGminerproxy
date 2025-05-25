@@ -1,0 +1,68 @@
+{
+    "user_pool_cfg": [
+        {
+            "coin_type": "ALEO_ICERIVER",
+            "close_reason": "",
+            "is_lock": false,
+            "is_favorite": false,
+            "is_open": true,
+            "is_identical_pool": false,
+            "is_viabtc_pool": false,
+            "is_pay": false,
+            "is_e_9_machine_optimize": false,
+            "fee_algorithm": 1,
+            "transit": {
+                "is_run": true,
+                "listen_port": 7223,
+                "target_address": "aleo.asia1.whalepool.com:42343",
+                "backup_target_address": "aleo.asia1.whalepool.com:42343",
+                "nick_name": "test5477"
+            },
+            "advance_params": "",
+            "advance_params_res": {
+                "special_worker": "",
+                "special_point": 0,
+                "fee_sec": 0,
+                "fee_delay": 0,
+                "skip_check_special_ker": "",
+                "port_primary_and_secondary": {
+                    "name": "",
+                    "mode": ""
+                },
+                "spa": {
+                    "sfp": null
+                }
+            },
+            "connect_method": "ssl+mix",
+            "local_hash_rate_percentage": 100,
+            "is_fast_response": false,
+            "is_open_fee_keep_connect": true,
+            "same_worker_name_fee_curve_opt_enable": false,
+            "is_open_fee_wait_notify": false,
+            "is_front_proxy": false,
+            "pay": [
+                {
+                    "pay_pool": "",
+                    "pay_backup_pool": "",
+                    "pay_wallet": "",
+                    "pay_password": "x",
+                    "pay_name": "",
+                    "proportion": 0
+                }
+            ],
+            "specified_miner_fee_ratio": [],
+            "specified_worker_fee_ratio": [],
+            "filter_wallet": [],
+            "filter_kel_name": [],
+            "advanced_settings": {
+                "blacklist_wallet": [],
+                "blacklist_wallet_replace": "",
+                "is_open_pool_mode": false,
+                "unify_miner_name": "",
+                "unify_worker_name": ""
+            }
+        }
+    ],
+    "target_pool_info": null,
+    "wallet_list": null
+}
