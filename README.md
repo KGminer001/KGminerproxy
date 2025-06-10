@@ -74,6 +74,14 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ## ⭐️ 版本日志
 
+
+V1.0.5
+
+- 1.优化代码稳定性、高并发下访问更稳定、延迟几乎完美
+- 2.新增算力曲线统计、连接次数统计、矿机数量统计
+- 3.支持ALEO冰河及金贝机型无损抽水
+- 4.增加软件版本推送更新
+
 V1.0.4
 
 - 1.新增工作台及分析页界面UI
