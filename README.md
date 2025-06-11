@@ -3,7 +3,7 @@
 [简体中文]: https://github.com/KGminer001/KGminerproxy/blob/master/readmes/zh.md
 [randlogin]: https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/randlogin.png
 
-<p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/logo-1.png" alt="Vue logo"></a></p>
+<p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="800" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/logo-1.png" alt="Vue logo"></a></p>
 <p align="center">
   <a href="https://kgminer.gitbook.io/kgminer-docs">
     <img src="https://img.shields.io/badge/教程网站-❤️-green.svg" alt="travis">
@@ -37,9 +37,9 @@
 # KGMinerProxy
 
 支持: BTC、LTC、BCH、KASPA、ETC、SC、ZEC、RVN、CFX、ETHF、ETHW、BEAM、ERGO、BTG、AE、FLUX、FIRO、NEOXA、XMR、GRIN、KDA、DASH、CKB、ZEN、NEXA、HNS、等多个币种抽水，不爆内存，体验拉满，4000 台无压力不崩溃，精确到单台设备的 24 小时数据统计、自定义隧道推送工具等强大功能.
-
+<!-- 
 <p align="center"><a  target="_blank" rel="noopener noreferrer"><img width="800" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/home-en.png" alt="Vue logo"></a></p>
-<p align="center">
+<p align="center"> -->
 
 ## ⭐️ 服务端软件安装
 
