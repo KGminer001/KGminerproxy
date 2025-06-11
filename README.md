@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/加入聊天-🔥-blue.svg" alt="travis">
   </a>
   <a>
-    <img src="https://img.shields.io/badge/软件版本-1.0.1-orgin.svg" alt="travis">
+    <img src="https://img.shields.io/badge/软件版本-1.0.5-orgin.svg" alt="travis">
   </a>
     <a>
     <img src="https://img.shields.io/badge/开发语言-GoLang-green.svg" alt="travis">
