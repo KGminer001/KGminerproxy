@@ -1,15 +1,15 @@
 #bin
 
-# 每次发布只需要修改这里就行主要是版本号
+# 发布版本号
 apprunname='kgminerproxy'
-appinstalname='kgminerproxylinux'-v1.0.5 #软件安装包名称
+appinstalname='kgminerproxylinux'-v1.0.6 #软件安装包名称
 
-# 需要修改的配置不明白最好请勿修改主要关注版本号即可
-shell_version='v1.0.5' #脚本版本
-version='v1.0.5' #软件版本
+# 版本号
+shell_version='v1.0.0' #脚本版本
+version='v1.0.6' #软件版本
 uiname=$1-shell #脚本名称
 sofname=$1-MPxy #软件名称
-wdog=WD$1Run #看门狗名称不能和软件名称相同最好一个字母都不相同
+wdog=WD$1Run #
 installdirName=proxy-$1-miner #安装文件夹名
 downloadUrl=https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/$appinstalname.tar.gz #下载路径,必须时tar.gz 压缩包
 configIUrl=$2/$3 #核心抽水配置文件
