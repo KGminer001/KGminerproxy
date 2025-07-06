@@ -75,6 +75,11 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 ## ⭐️ 版本日志
 
 
+V1.0.6
+
+- 1.修正更新日志个别网络环境下不显示的BUG
+- 2.其他性能优化
+
 V1.0.5
 
 - 1.优化代码稳定性、高并发下访问更稳定、延迟几乎完美
