@@ -48,10 +48,18 @@
 - root 用户直接执行以下命令, 根据提示选择对应功能即可。系统采用随机端口用户名和密码，启动的时候请注意控制台的打印，务必记住初始账号密码，进入软件可自定义修改。
 
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/kg.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/base_install_old.sh) 版本号
 ```
 
 <p><a target="_blank" rel="noopener noreferrer"><img width="900" height="220" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/sjdk.png"></a></p>
+
+
+### 1.Linux 系统一键安装脚本(支持 debian 8+ / ubuntu 18+ / 等)
+
+- 安装制定软件版本
+
+```
+bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/kg.sh)
 
 ### 2.Windows 系统安装部署(推荐安装 win10、win7 系统)
 
