@@ -53,9 +53,6 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 <p><a target="_blank" rel="noopener noreferrer"><img width="900" height="220" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/sjdk.png"></a></p>
 
-
-### 1.Linux 系统一键安装脚本(支持 debian 8+ / ubuntu 18+ / 等)
-
 - 安装制定软件版本
 
 ```
