@@ -50,7 +50,7 @@ root 用户直接执行以下命令, 根据提示选择对应功能即可。系�
 - 安装最新软件版本
 
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/base_install_old.sh) 版本号
+bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/kg.sh)
 ```
 
 <p><a target="_blank" rel="noopener noreferrer"><img width="900" height="220" src="https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/image/sjdk.png"></a></p>
@@ -58,7 +58,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 - 安装指定软件版本
 
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/kg.sh)
+bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/base_install_old.sh) 版本号
 ```
 
 ### 2.Windows 系统安装部署(推荐安装 win10、win7 系统)
