@@ -57,6 +57,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/kg.sh)
+```
 
 ### 2.Windows 系统安装部署(推荐安装 win10、win7 系统)
 
