@@ -84,9 +84,9 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 V1.0.7
 
-1.优化手机UI显示
-2.后台统计端口同步调整
-3.修正币种详情界面调整抽水比例后端口界面显示不同步问题
+- 1.优化手机UI显示
+- 2.后台统计端口同步调整
+- 3.修正币种详情界面调整抽水比例后端口界面显示不同步问题
 
 V1.0.6
 
