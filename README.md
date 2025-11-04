@@ -82,6 +82,12 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ## ⭐️ 版本日志
 
+V1.0.8
+
+- 1.新增对XTM币种的支持及相关抽水功能。
+- 2.对后台数据端口进行了优化调整，提升了系统的稳定性与处理效率。
+- 3.核心算法优化，实现无与伦比的精准度与控制力。
+
 V1.0.7
 
 - 1.优化手机UI显示
