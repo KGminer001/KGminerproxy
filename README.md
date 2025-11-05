@@ -60,8 +60,8 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/base_install_old.sh) 版本号
 ```
-```👉 注意：安装完软件后，务必重启服务器，务必重启服务器，务必重启服务器，重要的事情说三遍！
-```
+### 👉 注意：安装完软件后，务必重启服务器，务必重启服务器，务必重启服务器，重要的事情说三遍！
+
 ### 2.Windows 系统安装部署(推荐安装 win10、win7 系统)
 
 - Windows 服务端 KGminerproxy 软件下载[服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.0.1.zip)
