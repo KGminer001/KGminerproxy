@@ -2,11 +2,11 @@
 
 # 发布版本号
 apprunname='kgminerproxy'
-appinstalname='kgminerproxylinux'-v1.0.7 #软件安装包名称
+appinstalname='kgminerproxylinux'-v1.0.8 #软件安装包名称
 
 # 版本号
 shell_version='v1.0.0' #脚本版本
-version='v1.0.7' #软件版本
+version='v1.0.8' #软件版本
 uiname=$1-shell #脚本名称
 sofname=$1-MPxy #软件名称
 wdog=WD$1Run #
