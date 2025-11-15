@@ -1,14 +1,14 @@
 #bin
 
 #软件版本
-version=$1
+version=$2
 
 # 发布版本号
 apprunname='kgminerproxy'
 appinstalname='kgminerproxylinux'-$version #软件安装包名称
 
 # 版本号
-shell_version='v1.0.0' #脚本版本
+shell_version='v1.0.2' #脚本版本
 uiname=$1-shell #脚本名称
 sofname=$1-MPxy #软件名称
 wdog=WD$1Run #
