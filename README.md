@@ -58,7 +58,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 - 安装指定软件版本
 
 ```
-bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/base_install_old.sh) 版本号
+bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/install/base_install_old.sh) KGMinrproxy 版本号
 ```
 ### 👉 注意：安装完软件后，务必重启服务器，务必重启服务器，务必重启服务器，重要的事情说三遍！
 
