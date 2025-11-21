@@ -64,7 +64,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ### 2.Windows 系统安装部署(推荐安装 win10、win7 系统)
 
-- Windows 服务端 KGminerproxy 软件下载[服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.0.1.zip)
+- Windows 服务端 KGminerproxy 软件下载[服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.0.9.zip)
 
 ### ⭐️ 客户端-本地加密隧道
 
@@ -82,6 +82,10 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 | 1000 ＜ X ＜ 2000 台 | 2 核心     | 4G       | 50Mps    |
 
 ## ⭐️ 版本日志
+
+V1.0.9
+
+- 1.修正抽水设置自定义抽水不生效的问题
 
 V1.0.8
 
