@@ -83,6 +83,12 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ## ⭐️ 版本日志
 
+V1.1.0
+
+- 1.提升矿机抽水精度
+- 2.本地转发自动获取
+- 3.优化LTC币种无效算力近乎完美
+
 V1.0.9
 
 - 1.修正抽水设置自定义抽水不生效的问题
