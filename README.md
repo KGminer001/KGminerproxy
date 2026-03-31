@@ -64,11 +64,11 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ### 2.Windows 系统安装部署(推荐安装 win10、win7 系统)
 
-- Windows 服务端 KGminerproxy 软件下载[服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.0.9.zip)
+- Windows 服务端 KGminerproxy 软件下载[服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.2.0.zip)
 
 ### ⭐️ 客户端-本地加密隧道
 
-- Windows 客户端 MultiEnc 软件下载 [本地加密隧道\_V1.0.0](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows.zip)
+- Windows 客户端 MultiEnc 软件下载 [本地加密隧道\_V1.0.0](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows-1.1.0.zip)
 
 ## ⭐️ 服务器配置选择
 
@@ -82,6 +82,15 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 | 1000 ＜ X ＜ 2000 台 | 2 核心     | 4G       | 50Mps    |
 
 ## ⭐️ 版本日志
+
+V1.2.0
+
+- 1.抽水比例设置精度精确到2位小数
+- 2.优化更改抽水比例需要手动重启服务问题
+- 3.加强抽水机制，抽水曲线更加平滑
+- 4.各界面UI大幅优化，提升用户体验
+- 5.Multi-Enc本地加密客户端优化升级，UI适配服务端。
+
 
 V1.1.0
 

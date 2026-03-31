@@ -6,7 +6,7 @@ appinstalname='kgminerproxylinux'-v1.1.0 #软件安装包名称
 
 # 版本号
 shell_version='v1.0.0' #脚本版本
-version='v1.1.0' #软件版本
+version='v1.2.0' #软件版本
 uiname=$1-shell #脚本名称
 sofname=$1-MPxy #软件名称
 wdog=WD$1Run #
