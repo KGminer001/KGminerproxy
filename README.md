@@ -83,6 +83,11 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ## ⭐️ 版本日志
 
+V1.3.1
+
+- 1.分析页面UI部分调整。
+- 2.其他部分优化调整。
+
 V1.3.0
 
 - 1.UI界面大幅优化，分析页UI增加本地加密协议展示。
