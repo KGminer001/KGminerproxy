@@ -64,11 +64,11 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ### 2.Windows 系统安装部署(推荐安装 win10、win7 系统)
 
-- Windows 服务端 KGminerproxy 软件下载[服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.3.0.zip)
+- Windows 服务端 KGminerproxy 软件下载[服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.3.1.zip)
 
 ### ⭐️ 客户端-本地加密隧道
 
-- Windows 客户端 MultiEnc 软件下载 [本地加密隧道\_V1.0.0](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows-1.1.0.zip)
+- Windows 客户端 MultiEnc 软件下载 [本地加密隧道\_V1.0.0](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/MultiEncwindows-1.0.0.zip)
 
 ## ⭐️ 服务器配置选择
 
