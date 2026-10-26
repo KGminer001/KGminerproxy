@@ -64,7 +64,7 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 
 ### 2.Windows 系统安装部署(推荐安装 win10、win7 系统)
 
-- Windows 服务端 KGminerproxy 软件下载[服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.3.1.zip)
+- Windows 服务端 KGminerproxy 软件下载[服务端 windows 软件](https://raw.githubusercontent.com/KGminer001/KGminerproxy/main/windowsstart/kgminerproxywindows-v1.3.3.zip)
 
 ### ⭐️ 客户端-本地加密隧道
 
@@ -82,6 +82,13 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 | 1000 ＜ X ＜ 2000 台 | 2 核心     | 4G       | 50Mps    |
 
 ## ⭐️ 版本日志
+
+
+V1.3.3
+
+- 1.修复一些已知问题。
+- 2.工作台增加矿机健康状态检测。
+- 3.分析页增加矿机内核统计。
 
 
 V1.3.2
