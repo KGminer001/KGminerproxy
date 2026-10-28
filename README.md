@@ -84,6 +84,10 @@ bash <(curl -s -L https://raw.githubusercontent.com/KGminer001/KGminerproxy/main
 ## ⭐️ 版本日志
 
 
+V1.3.4
+
+- 1.修复币种页面目标矿池和钱包地址添加后添加端口弹窗不同步数据问题。
+
 V1.3.3
 
 - 1.修复一些已知问题。
